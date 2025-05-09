@@ -10,7 +10,8 @@ load_dotenv()  # This loads the .env file
 
 # Now you can safely access your key
 groq_api_key = os.getenv("GROQ_API_KEY")
-os.environ["GROQ_API_KEY"]="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"
+
+
 
 app = Flask(__name__)
 
